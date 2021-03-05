@@ -1,0 +1,10 @@
+
+.PHONY: run
+run: demo
+
+.PHONY: demo
+demo:
+    python3 manage.py runserver 9900
+
+
+
